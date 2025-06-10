@@ -1,0 +1,28 @@
+{
+  "name": "mongodb-contact-crud",
+  "version": "1.0.0",
+  "description": "MongoDB CRUD operations for contact management",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "interactive": "node src/interactive.js",
+    "init": "node src/scripts/individual-operations.js init",
+    "all": "node src/scripts/individual-operations.js all",
+    "byid": "node src/scripts/individual-operations.js byid",
+    "over18": "node src/scripts/individual-operations.js over18",
+    "over18ah": "node src/scripts/individual-operations.js over18ah",
+    "update": "node src/scripts/individual-operations.js update",
+    "delete": "node src/scripts/individual-operations.js delete",
+    "sequence": "node src/scripts/individual-operations.js sequence"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "mongodb": "^6.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
