@@ -24,7 +24,7 @@ This project demonstrates MongoDB CRUD operations using Node.js and MongoDB Atla
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/ouDriss95/Checkpoint-MongoDB
 cd mongodb-contact-crud
 ```
 
@@ -46,10 +46,32 @@ COLLECTION_NAME=contactlist
 
 ## Usage
 
-Run the application:
+Run each operation separately:
 
 ```bash
-npm start
+# Initialize database
+npm run init
+
+# Display all contacts
+npm run all
+
+# Display contact by ID
+npm run byid
+
+# Display contacts over 18
+npm run over18
+
+# Display contacts over 18 with "ah"
+npm run over18ah
+
+# Update contact
+npm run update
+
+# Delete contacts under 5
+npm run delete
+
+# Run all operations in sequence
+npm run sequence
 ```
 
 For development with auto-restart:
